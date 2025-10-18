@@ -1,0 +1,226 @@
+{
+  "crtsh:example.com": {
+    "value": [
+      {
+        "target": "example.com",
+        "scanned_at": "2025-10-18T13:53:26.826400Z",
+        "module": "crtsh_lookup",
+        "type": "certificate",
+        "confidence": 0.8,
+        "priority": 6,
+        "evidence": [
+          {
+            "label": "common_name",
+            "value": "*.example.com"
+          },
+          {
+            "label": "issuer_name",
+            "value": "C=GB, ST=Greater Manchester, L=Salford, O=Sectigo Limited, CN=Sectigo ECC Organization Validation Secure Server CA"
+          },
+          {
+            "label": "not_after",
+            "value": "2026-03-10T23:59:59"
+          }
+        ],
+        "meta": {
+          "source": "crt.sh",
+          "ttl_seconds": 86400
+        }
+      },
+      {
+        "target": "example.com",
+        "scanned_at": "2025-10-18T13:53:26.826400Z",
+        "module": "crtsh_lookup",
+        "type": "certificate",
+        "confidence": 0.8,
+        "priority": 6,
+        "evidence": [
+          {
+            "label": "common_name",
+            "value": "example.com"
+          },
+          {
+            "label": "issuer_name",
+            "value": "C=GB, ST=Greater Manchester, L=Salford, O=Sectigo Limited, CN=Sectigo RSA Domain Validation Secure Server CA"
+          },
+          {
+            "label": "not_after",
+            "value": "2025-04-28T23:59:59"
+          }
+        ],
+        "meta": {
+          "source": "crt.sh",
+          "ttl_seconds": 86400
+        }
+      },
+      {
+        "target": "example.com",
+        "scanned_at": "2025-10-18T13:53:26.826400Z",
+        "module": "crtsh_lookup",
+        "type": "certificate",
+        "confidence": 0.8,
+        "priority": 6,
+        "evidence": [
+          {
+            "label": "common_name",
+            "value": "www.example.org"
+          },
+          {
+            "label": "issuer_name",
+            "value": "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+          },
+          {
+            "label": "not_after",
+            "value": "2026-02-14T23:59:59"
+          }
+        ],
+        "meta": {
+          "source": "crt.sh",
+          "ttl_seconds": 86400
+        }
+      },
+      {
+        "target": "example.com",
+        "scanned_at": "2025-10-18T13:53:26.826400Z",
+        "module": "crtsh_lookup",
+        "type": "certificate",
+        "confidence": 0.8,
+        "priority": 6,
+        "evidence": [
+          {
+            "label": "common_name",
+            "value": "*.hosted.jivesoftware.com"
+          },
+          {
+            "label": "issuer_name",
+            "value": "emailAddress=pki_admin@sungard.com, O=SunGard Availability Services, CN=SAS Public CA v1"
+          },
+          {
+            "label": "not_after",
+            "value": "2011-10-01T16:31:00"
+          }
+        ],
+        "meta": {
+          "source": "crt.sh",
+          "ttl_seconds": 86400
+        }
+      },
+      {
+        "target": "example.com",
+        "scanned_at": "2025-10-18T13:53:26.826400Z",
+        "module": "crtsh_lookup",
+        "type": "certificate",
+        "confidence": 0.8,
+        "priority": 6,
+        "evidence": [
+          {
+            "label": "common_name",
+            "value": "*.uat3.hosted.jivesoftware.com"
+          },
+          {
+            "label": "issuer_name",
+            "value": "emailAddress=pki_admin@sungard.com, O=SunGard Availability Services, CN=SAS Public CA v1"
+          },
+          {
+            "label": "not_after",
+            "value": "2011-10-01T16:32:00"
+          }
+        ],
+        "meta": {
+          "source": "crt.sh",
+          "ttl_seconds": 86400
+        }
+      },
+      {
+        "target": "example.com",
+        "scanned_at": "2025-10-18T13:53:26.826400Z",
+        "module": "crtsh_lookup",
+        "type": "certificate",
+        "confidence": 0.8,
+        "priority": 6,
+        "evidence": [
+          {
+            "label": "common_name",
+            "value": "www.example.com"
+          },
+          {
+            "label": "issuer_name",
+            "value": "C=US, O=\"thawte, Inc.\", CN=thawte SSL CA - G2"
+          },
+          {
+            "label": "not_after",
+            "value": "2017-07-14T23:59:59"
+          }
+        ],
+        "meta": {
+          "source": "crt.sh",
+          "ttl_seconds": 86400
+        }
+      },
+      {
+        "target": "example.com",
+        "scanned_at": "2025-10-18T13:53:26.826400Z",
+        "module": "crtsh_lookup",
+        "type": "certificate",
+        "confidence": 0.8,
+        "priority": 6,
+        "evidence": [
+          {
+            "label": "common_name",
+            "value": "AS207960 Test Intermediate - example.com"
+          },
+          {
+            "label": "issuer_name",
+            "value": "C=GB, ST=Cymru, O=AS207960 Cyfyngedig, OU=AS207960 Department of Random Numbers, CN=AS207960 Test CA"
+          },
+          {
+            "label": "not_after",
+            "value": "2031-08-29T15:55:23"
+          }
+        ],
+        "meta": {
+          "source": "crt.sh",
+          "ttl_seconds": 86400
+        }
+      }
+    ],
+    "expires": 1760882006.8264003
+  },
+  "whois:example.com": {
+    "value": [
+      {
+        "target": "example.com",
+        "scanned_at": "2025-10-18T13:53:28.532810Z",
+        "module": "whois_parser",
+        "type": "whois_record",
+        "confidence": 0.8,
+        "priority": 6,
+        "evidence": [
+          {
+            "label": "registrant",
+            "value": "Unknown"
+          },
+          {
+            "label": "creation_date",
+            "value": "1995-08-14 04:00:00+00:00"
+          },
+          {
+            "label": "expiration_date",
+            "value": "2026-08-13 04:00:00+00:00"
+          }
+        ],
+        "meta": {
+          "source": "whois_parser",
+          "ttl_seconds": 86400
+        }
+      }
+    ],
+    "expires": 1760882008.53281
+  },
+  "unit_test": {
+    "value": {
+      "ok": true
+    },
+    "expires": 1760796721.4966297
+  }
+}

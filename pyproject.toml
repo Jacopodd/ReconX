@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "reconx"
+version = "0.1.0"
+description = "Modular reconnaissance framework"
+authors = ["Tuo Nome <tu@domain.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.1.3"
+aiohttp = "^3.9.5"
+dnspython = "^2.6.1"
+requests = "^2.32.3"
+python-whois = "^0.9.4"
+sqlalchemy = "^2.0.36"
+jsonschema = "^4.23.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.0"
+black = "^24.8.0"
+isort = "^5.13.2"
+
+[tool.poetry.scripts]
+reconx = "reconx.cli:main"

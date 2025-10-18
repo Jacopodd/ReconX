@@ -1,0 +1,81 @@
+[2025-10-18 15:58:33] [INFO] [engine] Avvio scansione per target: example.com
+[2025-10-18 15:58:33] [INFO] [engine] [+] Eseguo plugin: crtsh_lookup
+[2025-10-18 15:58:33] [INFO] [engine] [cache] Hit per crtsh:example.com
+[2025-10-18 15:58:33] [INFO] [engine] [+] Eseguo plugin: dns_basic
+[2025-10-18 15:58:33] [INFO] [engine] [dns_basic] Avvio risoluzione DNS per example.com
+[2025-10-18 15:58:34] [INFO] [engine] [dns_basic] Completata risoluzione per example.com
+[2025-10-18 15:58:34] [INFO] [engine] [+] Eseguo plugin: whois_parser
+[2025-10-18 15:58:34] [INFO] [engine] [cache] Hit per whois:example.com
+[2025-10-18 15:58:34] [INFO] [engine] [engine] 13 risultati salvati nel database.
+[2025-10-18 16:03:48] [INFO] [engine] Avvio scansione per target: example.com
+[2025-10-18 16:03:49] [INFO] [engine] [+] Eseguo plugin: crtsh_lookup
+[2025-10-18 16:03:49] [INFO] [engine] [cache] Hit per crtsh:example.com
+[2025-10-18 16:03:49] [INFO] [engine] [+] Eseguo plugin: dns_basic
+[2025-10-18 16:03:49] [INFO] [engine] [dns_basic] Avvio risoluzione DNS per example.com
+[2025-10-18 16:03:49] [INFO] [engine] [dns_basic] Completata risoluzione per example.com
+[2025-10-18 16:03:49] [INFO] [engine] [+] Eseguo plugin: whois_parser
+[2025-10-18 16:03:49] [INFO] [engine] [cache] Hit per whois:example.com
+[2025-10-18 16:03:49] [INFO] [engine] [engine] 13 risultati salvati nel database.
+[2025-10-18 16:07:55] [INFO] [engine] [cache] Salvato unit_test (TTL 5s)
+[2025-10-18 16:07:55] [INFO] [engine] [cache] Hit per unit_test
+[2025-10-18 16:07:55] [INFO] [engine] [cache] Hit per crtsh:example.com
+[2025-10-18 16:07:55] [INFO] [engine] [dns_basic] Avvio risoluzione DNS per example.com
+[2025-10-18 16:07:55] [INFO] [engine] [dns_basic] Completata risoluzione per example.com
+[2025-10-18 16:07:55] [INFO] [engine] Avvio scansione per target: example.com
+[2025-10-18 16:07:55] [INFO] [engine] [+] Eseguo plugin: crtsh_lookup
+[2025-10-18 16:07:55] [INFO] [engine] [cache] Hit per crtsh:example.com
+[2025-10-18 16:07:55] [INFO] [engine] [+] Eseguo plugin: dns_basic
+[2025-10-18 16:07:55] [INFO] [engine] [dns_basic] Avvio risoluzione DNS per example.com
+[2025-10-18 16:07:55] [INFO] [engine] [dns_basic] Completata risoluzione per example.com
+[2025-10-18 16:07:55] [INFO] [engine] [+] Eseguo plugin: whois_parser
+[2025-10-18 16:07:55] [INFO] [engine] [cache] Hit per whois:example.com
+[2025-10-18 16:07:55] [INFO] [engine] [engine] 13 risultati salvati nel database.
+[2025-10-18 16:07:55] [INFO] [engine] [cache] Hit per whois:example.com
+[2025-10-18 16:10:11] [INFO] [engine] [cache] Salvato unit_test (TTL 5s)
+[2025-10-18 16:10:11] [INFO] [engine] [cache] Hit per unit_test
+[2025-10-18 16:10:11] [INFO] [engine] Avvio scansione per target: example.com
+[2025-10-18 16:10:11] [INFO] [engine] [+] Eseguo plugin: crtsh_lookup
+[2025-10-18 16:10:11] [INFO] [engine] [cache] Hit per crtsh:example.com
+[2025-10-18 16:10:11] [INFO] [engine] [+] Eseguo plugin: dns_basic
+[2025-10-18 16:10:11] [INFO] [engine] [dns_basic] Avvio risoluzione DNS per example.com
+[2025-10-18 16:10:11] [INFO] [engine] [dns_basic] Completata risoluzione per example.com
+[2025-10-18 16:10:11] [INFO] [engine] [+] Eseguo plugin: whois_parser
+[2025-10-18 16:10:11] [INFO] [engine] [cache] Hit per whois:example.com
+[2025-10-18 16:10:11] [INFO] [engine] [engine] 13 risultati salvati nel database.
+[2025-10-18 16:10:12] [INFO] [engine] [cache] Hit per crtsh:example.com
+[2025-10-18 16:10:12] [INFO] [engine] [dns_basic] Avvio risoluzione DNS per example.com
+[2025-10-18 16:10:12] [INFO] [engine] [dns_basic] Completata risoluzione per example.com
+[2025-10-18 16:10:12] [INFO] [engine] Avvio scansione per target: example.com
+[2025-10-18 16:10:12] [INFO] [engine] [+] Eseguo plugin: crtsh_lookup
+[2025-10-18 16:10:12] [INFO] [engine] [cache] Hit per crtsh:example.com
+[2025-10-18 16:10:12] [INFO] [engine] [+] Eseguo plugin: dns_basic
+[2025-10-18 16:10:12] [INFO] [engine] [dns_basic] Avvio risoluzione DNS per example.com
+[2025-10-18 16:10:12] [INFO] [engine] [dns_basic] Completata risoluzione per example.com
+[2025-10-18 16:10:12] [INFO] [engine] [+] Eseguo plugin: whois_parser
+[2025-10-18 16:10:12] [INFO] [engine] [cache] Hit per whois:example.com
+[2025-10-18 16:10:12] [INFO] [engine] [engine] 13 risultati salvati nel database.
+[2025-10-18 16:10:12] [INFO] [engine] [cache] Hit per whois:example.com
+[2025-10-18 16:11:56] [INFO] [engine] [cache] Salvato unit_test (TTL 5s)
+[2025-10-18 16:11:56] [INFO] [engine] [cache] Hit per unit_test
+[2025-10-18 16:11:56] [INFO] [engine] Avvio scansione per target: example.com
+[2025-10-18 16:11:56] [INFO] [engine] [+] Eseguo plugin: crtsh_lookup
+[2025-10-18 16:11:56] [INFO] [engine] [cache] Hit per crtsh:example.com
+[2025-10-18 16:11:56] [INFO] [engine] [+] Eseguo plugin: dns_basic
+[2025-10-18 16:11:56] [INFO] [engine] [dns_basic] Avvio risoluzione DNS per example.com
+[2025-10-18 16:11:56] [INFO] [engine] [dns_basic] Completata risoluzione per example.com
+[2025-10-18 16:11:56] [INFO] [engine] [+] Eseguo plugin: whois_parser
+[2025-10-18 16:11:56] [INFO] [engine] [cache] Hit per whois:example.com
+[2025-10-18 16:11:56] [INFO] [engine] [engine] 13 risultati salvati nel database.
+[2025-10-18 16:11:57] [INFO] [engine] [cache] Hit per crtsh:example.com
+[2025-10-18 16:11:57] [INFO] [engine] [dns_basic] Avvio risoluzione DNS per example.com
+[2025-10-18 16:11:57] [INFO] [engine] [dns_basic] Completata risoluzione per example.com
+[2025-10-18 16:11:57] [INFO] [engine] Avvio scansione per target: example.com
+[2025-10-18 16:11:57] [INFO] [engine] [+] Eseguo plugin: crtsh_lookup
+[2025-10-18 16:11:57] [INFO] [engine] [cache] Hit per crtsh:example.com
+[2025-10-18 16:11:57] [INFO] [engine] [+] Eseguo plugin: dns_basic
+[2025-10-18 16:11:57] [INFO] [engine] [dns_basic] Avvio risoluzione DNS per example.com
+[2025-10-18 16:11:57] [INFO] [engine] [dns_basic] Completata risoluzione per example.com
+[2025-10-18 16:11:57] [INFO] [engine] [+] Eseguo plugin: whois_parser
+[2025-10-18 16:11:57] [INFO] [engine] [cache] Hit per whois:example.com
+[2025-10-18 16:11:57] [INFO] [engine] [engine] 13 risultati salvati nel database.
+[2025-10-18 16:11:57] [INFO] [engine] [cache] Hit per whois:example.com
