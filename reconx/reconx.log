@@ -1,0 +1,79 @@
+[2025-10-27 10:31:44] [INFO] [engine] [engine] Avvio scansione per target: example.com
+[2025-10-27 10:32:26] [INFO] [engine] [engine] Avvio scansione per target: example.com
+[2025-10-27 10:36:09] [INFO] [engine] [engine] Avvio scansione per target: example.com
+[2025-10-27 10:36:09] [INFO] [engine] [+] Eseguo plugin: crtsh_lookup
+[2025-10-27 10:36:09] [INFO] [engine] [crtsh_lookup] Avvio ricerca certificati per example.com
+[2025-10-27 10:36:10] [INFO] [engine] [cache] Salvato crtsh:example.com (TTL 86400s)
+[2025-10-27 10:36:10] [INFO] [engine] [crtsh_lookup] Trovati 7 certificati per example.com
+[2025-10-27 10:36:10] [INFO] [engine] [+] Eseguo plugin: dns_basic
+[2025-10-27 10:36:10] [INFO] [engine] [dns_basic] Avvio risoluzione DNS per example.com
+[2025-10-27 10:36:10] [INFO] [engine] [dns_basic] Completata risoluzione per example.com
+[2025-10-27 10:36:10] [INFO] [engine] [+] Eseguo plugin: whois_parser
+[2025-10-27 10:36:10] [INFO] [engine] [whois_parser] Avvio query WHOIS per example.com
+[2025-10-27 10:36:12] [INFO] [engine] [cache] Salvato whois:example.com (TTL 86400s)
+[2025-10-27 10:36:12] [INFO] [engine] [whois_parser] Completata query WHOIS per example.com
+[2025-10-27 10:36:12] [INFO] [engine] [engine] 13 risultati salvati nel database.
+[2025-10-27 10:38:54] [INFO] [engine] [engine] Input normalizzato a dominio: www.unisa.it
+[2025-10-27 10:38:54] [INFO] [engine] [engine] Avvio scansione per target: www.unisa.it
+[2025-10-27 10:38:54] [INFO] [engine] [+] Eseguo plugin: crtsh_lookup
+[2025-10-27 10:38:54] [INFO] [engine] [crtsh_lookup] Avvio ricerca certificati per www.unisa.it
+[2025-10-27 10:38:56] [INFO] [engine] [cache] Salvato crtsh:www.unisa.it (TTL 86400s)
+[2025-10-27 10:38:56] [INFO] [engine] [crtsh_lookup] Trovati 3 certificati per www.unisa.it
+[2025-10-27 10:38:56] [INFO] [engine] [+] Eseguo plugin: dns_basic
+[2025-10-27 10:38:56] [INFO] [engine] [dns_basic] Avvio risoluzione DNS per www.unisa.it
+[2025-10-27 10:38:56] [ERROR] [engine] [dns_basic] Nessun record AAAA trovato (The DNS response does not contain an answer to the question: www.unisa.it. IN AAAA)
+[2025-10-27 10:38:56] [ERROR] [engine] [dns_basic] Nessun record MX trovato (The DNS response does not contain an answer to the question: www.unisa.it. IN MX)
+[2025-10-27 10:38:56] [ERROR] [engine] [dns_basic] Nessun record NS trovato (The DNS response does not contain an answer to the question: www.unisa.it. IN NS)
+[2025-10-27 10:38:56] [ERROR] [engine] [dns_basic] Nessun record TXT trovato (The DNS response does not contain an answer to the question: www.unisa.it. IN TXT)
+[2025-10-27 10:38:56] [INFO] [engine] [dns_basic] Completata risoluzione per www.unisa.it
+[2025-10-27 10:38:56] [INFO] [engine] [+] Eseguo plugin: whois_parser
+[2025-10-27 10:38:56] [INFO] [engine] [whois_parser] Avvio query WHOIS per www.unisa.it
+[2025-10-27 10:38:57] [INFO] [engine] [cache] Salvato whois:www.unisa.it (TTL 86400s)
+[2025-10-27 10:38:57] [INFO] [engine] [whois_parser] Completata query WHOIS per www.unisa.it
+[2025-10-27 10:38:57] [INFO] [engine] [engine] 9 risultati salvati nel database.
+[2025-10-27 10:50:42] [INFO] [engine] [engine] Input normalizzato a dominio: www.unisa.it
+[2025-10-27 10:50:42] [INFO] [engine] [engine] Avvio scansione per target: www.unisa.it
+[2025-10-27 10:50:42] [INFO] [engine] [+] Eseguo plugin: crtsh_lookup
+[2025-10-27 10:50:42] [INFO] [engine] [cache] Hit per crtsh:www.unisa.it
+[2025-10-27 10:50:42] [INFO] [engine] [+] Eseguo plugin: dns_basic
+[2025-10-27 10:50:42] [INFO] [engine] [dns_basic] Avvio risoluzione DNS per www.unisa.it
+[2025-10-27 10:50:43] [ERROR] [engine] [dns_basic] Nessun record AAAA trovato (The DNS response does not contain an answer to the question: www.unisa.it. IN AAAA)
+[2025-10-27 10:50:43] [ERROR] [engine] [dns_basic] Nessun record MX trovato (The DNS response does not contain an answer to the question: www.unisa.it. IN MX)
+[2025-10-27 10:50:43] [ERROR] [engine] [dns_basic] Nessun record NS trovato (The DNS response does not contain an answer to the question: www.unisa.it. IN NS)
+[2025-10-27 10:50:43] [ERROR] [engine] [dns_basic] Nessun record TXT trovato (The DNS response does not contain an answer to the question: www.unisa.it. IN TXT)
+[2025-10-27 10:50:43] [INFO] [engine] [dns_basic] Completata risoluzione per www.unisa.it
+[2025-10-27 10:50:43] [INFO] [engine] [+] Eseguo plugin: whois_parser
+[2025-10-27 10:50:43] [INFO] [engine] [cache] Hit per whois:www.unisa.it
+[2025-10-27 10:50:43] [INFO] [engine] [engine] 9 risultati salvati nel database.
+[2025-10-27 10:51:37] [INFO] [engine] [engine] Avvio scansione per target: example.com
+[2025-10-27 10:51:37] [INFO] [engine] [+] Eseguo plugin: crtsh_lookup
+[2025-10-27 10:51:37] [INFO] [engine] [cache] Hit per crtsh:example.com
+[2025-10-27 10:51:37] [INFO] [engine] [+] Eseguo plugin: dns_basic
+[2025-10-27 10:51:37] [INFO] [engine] [dns_basic] Avvio risoluzione DNS per example.com
+[2025-10-27 10:51:37] [INFO] [engine] [dns_basic] Completata risoluzione per example.com
+[2025-10-27 10:51:37] [INFO] [engine] [+] Eseguo plugin: whois_parser
+[2025-10-27 10:51:37] [INFO] [engine] [cache] Hit per whois:example.com
+[2025-10-27 10:51:37] [INFO] [engine] [engine] 13 risultati salvati nel database.
+[2025-10-27 10:54:38] [INFO] [engine] [engine] Avvio scansione per target: example.com
+[2025-10-27 10:54:38] [INFO] [engine] [+] Eseguo plugin: crtsh_lookup
+[2025-10-27 10:54:38] [INFO] [engine] [cache] Hit per crtsh:example.com
+[2025-10-27 10:54:38] [INFO] [engine] [+] Eseguo plugin: dns_basic
+[2025-10-27 10:54:38] [INFO] [engine] [dns_basic] Avvio risoluzione DNS per example.com
+[2025-10-27 10:54:38] [INFO] [engine] [dns_basic] Completata risoluzione per example.com
+[2025-10-27 10:54:38] [INFO] [engine] [+] Eseguo plugin: whois_parser
+[2025-10-27 10:54:38] [INFO] [engine] [cache] Hit per whois:example.com
+[2025-10-27 10:54:38] [INFO] [engine] [engine] 13 risultati salvati nel database.
+[2025-10-27 10:55:08] [INFO] [engine] [engine] Input normalizzato a dominio: www.unisa.it
+[2025-10-27 10:55:08] [INFO] [engine] [engine] Avvio scansione per target: www.unisa.it
+[2025-10-27 10:55:08] [INFO] [engine] [+] Eseguo plugin: crtsh_lookup
+[2025-10-27 10:55:08] [INFO] [engine] [cache] Hit per crtsh:www.unisa.it
+[2025-10-27 10:55:08] [INFO] [engine] [+] Eseguo plugin: dns_basic
+[2025-10-27 10:55:08] [INFO] [engine] [dns_basic] Avvio risoluzione DNS per www.unisa.it
+[2025-10-27 10:55:08] [ERROR] [engine] [dns_basic] Nessun record AAAA trovato (The DNS response does not contain an answer to the question: www.unisa.it. IN AAAA)
+[2025-10-27 10:55:08] [ERROR] [engine] [dns_basic] Nessun record MX trovato (The DNS response does not contain an answer to the question: www.unisa.it. IN MX)
+[2025-10-27 10:55:08] [ERROR] [engine] [dns_basic] Nessun record NS trovato (The DNS response does not contain an answer to the question: www.unisa.it. IN NS)
+[2025-10-27 10:55:08] [ERROR] [engine] [dns_basic] Nessun record TXT trovato (The DNS response does not contain an answer to the question: www.unisa.it. IN TXT)
+[2025-10-27 10:55:08] [INFO] [engine] [dns_basic] Completata risoluzione per www.unisa.it
+[2025-10-27 10:55:08] [INFO] [engine] [+] Eseguo plugin: whois_parser
+[2025-10-27 10:55:08] [INFO] [engine] [cache] Hit per whois:www.unisa.it
+[2025-10-27 10:55:08] [INFO] [engine] [engine] 9 risultati salvati nel database.

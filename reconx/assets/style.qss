@@ -1,0 +1,48 @@
+QMainWindow {
+    background-color: #0B1220;
+    color: #E6EEF6;
+}
+
+QTabWidget::pane {
+    border: none;
+}
+
+QLabel, QLineEdit, QTextEdit, QPushButton, QListWidget, QTableWidget {
+    color: #E6EEF6;
+    background-color: #0F1724;
+    border: 1px solid #1F2A38;
+    border-radius: 6px;
+    padding: 4px;
+    font-family: "Inter";
+}
+
+QPushButton {
+    background-color: #FF6B35;
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+}
+
+QPushButton:hover {
+    background-color: #FF8C57;
+}
+
+QTextEdit {
+    font-family: "JetBrains Mono";
+    font-size: 12px;
+}
+
+QListWidget::item {
+    padding: 6px;
+}
+
+QHeaderView::section {
+    background-color: #0F1724;
+    color: #E6EEF6;
+    font-weight: bold;
+    border: none;
+}
+
+QTableWidget {
+    gridline-color: #1F2A38;
+}
